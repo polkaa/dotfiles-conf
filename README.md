@@ -19,4 +19,11 @@ Some dotfiles and configuration files
 - Use the doc at : https://github.com/davatorium/rofi/wiki
 - Modify Theme : https://github.com/davatorium/rofi/wiki/themes,
     do 2 the commands
-- go on rofi-theme-selector and choose your theme, validate by presing alt+a
+- Go on rofi-theme-selector and choose your theme, validate by presing alt+a
+
+
+## Others
+
+## Nitrogen
+
+Use it in order to change the wallpaper
