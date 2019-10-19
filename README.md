@@ -4,6 +4,10 @@ Some dotfiles and configuration files
 
 ## Dotfiles
 
+
+
+## Configs
+
 ### .i3/config
 
 - modify gaps between elements :
