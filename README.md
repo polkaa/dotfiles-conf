@@ -4,6 +4,11 @@ Some dotfiles and configuration files
 
 ## Dotfiles
 
+### .i3/config
+
+- modify gaps between elements :
+    - `gaps inner x` : change all gaps
+    - `gaps outer x` : change only outer gaps
 
 ## Others
 
