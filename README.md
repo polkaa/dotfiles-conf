@@ -24,6 +24,6 @@ Some dotfiles and configuration files
 
 ## Others
 
-## Nitrogen
+### Nitrogen
 
 Use it in order to change the wallpaper
