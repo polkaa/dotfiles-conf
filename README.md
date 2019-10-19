@@ -4,11 +4,13 @@ Some dotfiles and configuration files
 
 ## Dotfiles
 
+
+## Others
+
 ### Grub custom
 
 - Install grub-customizer by typing `sudo pacman -S grub-customizer`
 - Then customize list, timeout, etc
-
 
 ### Rofi custom
 
@@ -20,9 +22,6 @@ Some dotfiles and configuration files
 - Modify Theme : https://github.com/davatorium/rofi/wiki/themes,
     do 2 the commands
 - Go on rofi-theme-selector and choose your theme, validate by presing alt+a
-
-
-## Others
 
 ### Nitrogen
 
