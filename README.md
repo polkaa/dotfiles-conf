@@ -27,3 +27,9 @@ Some dotfiles and configuration files
 ### Nitrogen
 
 Use it in order to change the wallpaper
+
+### Conky
+
+If you use start_conky_green (see in .i3/config) :
+- in order to remove the help shortcuts -> comment the line
+    `conky -c /usr/share/conky/conky1.10_shortcuts_green &&`
