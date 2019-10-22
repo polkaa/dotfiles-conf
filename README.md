@@ -37,6 +37,10 @@ to have transparant term
     do 2 the commands
 - Go on rofi-theme-selector and choose your theme, validate by presing alt+a
 
+
+![Custom Rofi](./images/rofi_custom.png)
+
+
 ### Conky
 
 If you use start_conky_green (see in .i3/config) :
