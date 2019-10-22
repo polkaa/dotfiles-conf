@@ -21,25 +21,26 @@ to have transparant term
     - `gaps inner x` : change all gaps
     - `gaps outer x` : change only outer gaps
 
-### Grub custom - dmenu
+### Grub custom
 
 - Install grub-customizer by typing `sudo pacman -S grub-customizer`
-- Then customize list, timeout, etc
+    Then customize os list, timeout, etc
+- Modify theme : https://github.com/vinceliuice/grub2-themes
 
-### Rofi custom
+![Grub Slaze Theme](./images/grub-theme-slaze.png)
+
+### Rofi custom - dmenu
 
 - Install rofi by typing `sudo pacman -S rofi`
 - Rofi github : https://github.com/davatorium/rofi
 - If you want to add more themes : https://github.com/davatorium/rofi-themes
 - Cpy \*.rasi files into /usr/share/rofi/themes
 - Use the doc at : https://github.com/davatorium/rofi/wiki
-- Modify Theme : https://github.com/davatorium/rofi/wiki/themes,
+- Modify theme : https://github.com/davatorium/rofi/wiki/themes,
     do 2 the commands
 - Go on rofi-theme-selector and choose your theme, validate by presing alt+a
 
-
 ![Custom Rofi](./images/rofi_custom.png)
-
 
 ### Conky
 
@@ -47,6 +48,7 @@ If you use start_conky_green (see in .i3/config) :
 - in order to remove the help shortcuts -> comment the line
     `conky -c /usr/share/conky/conky1.10_shortcuts_green &&`
 
+![Green Conky](./images/conky_green.png)
 
 ## Others
 
