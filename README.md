@@ -61,3 +61,9 @@ Use it in order to change the wallpaper
 ### Lightdm
 
 Use lightdm-settings to change the login screen
+
+### Shell - zsh - oh-my-zsh
+
+https://github.com/robbyrussell/oh-my-zsh.git
+
+![Zsh Theme](./images/zsh.png)
