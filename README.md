@@ -1,9 +1,16 @@
-# DotFiles-Conf
+# Dotfiles-Conf
 Some dotfiles and configuration files
 
 
 ## Dotfiles
 
+### Urxvt - term
+
+Create .Xdefaults file and put your customization.
+For instance :
+`urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800`
+to have transparant term 
 
 
 ## Configs
@@ -14,9 +21,7 @@ Some dotfiles and configuration files
     - `gaps inner x` : change all gaps
     - `gaps outer x` : change only outer gaps
 
-## Others
-
-### Grub custom
+### Grub custom - dmenu
 
 - Install grub-customizer by typing `sudo pacman -S grub-customizer`
 - Then customize list, timeout, etc
@@ -32,12 +37,19 @@ Some dotfiles and configuration files
     do 2 the commands
 - Go on rofi-theme-selector and choose your theme, validate by presing alt+a
 
-### Nitrogen
-
-Use it in order to change the wallpaper
-
 ### Conky
 
 If you use start_conky_green (see in .i3/config) :
 - in order to remove the help shortcuts -> comment the line
     `conky -c /usr/share/conky/conky1.10_shortcuts_green &&`
+
+
+## Others
+
+### Nitrogen
+
+Use it in order to change the wallpaper
+
+### Lightdm
+
+Use lightdm-settings to change the login screen
