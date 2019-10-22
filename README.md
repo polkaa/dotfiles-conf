@@ -8,8 +8,8 @@ Some dotfiles and configuration files
 
 Create .Xdefaults file and put your customization.
 For instance :
-`urxvt*depth: 32
-urxvt*background: rgba:0000/0000/0200/c800`
+`urxvt*depth: 32`
+`urxvt*background: rgba:0000/0000/0200/c800`
 to have transparant term 
 
 
