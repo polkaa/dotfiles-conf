@@ -6,47 +6,49 @@ Some dotfiles and configuration files
 
 ### Urxvt - term
 
-Create .Xdefaults file and put your customization.
-For instance :
+Create .Xdefaults file and put your own customization.
+Transparency :
 `urxvt*depth: 32`
 `urxvt*background: rgba:0000/0000/0200/c800`
-to have transparant term 
 
 
 ## Configs
 
 ### .i3/config
 
-- modify gaps between elements :
+- Modify gaps between elements :
     - `gaps inner x` : change all gaps
     - `gaps outer x` : change only outer gaps
 
 ### Grub custom
 
 - Install grub-customizer by typing `sudo pacman -S grub-customizer`
-    Then customize os list, timeout, etc
+    Then customize os list, timeout, etc.
 - Modify theme : https://github.com/vinceliuice/grub2-themes
 
 ![Grub Slaze Theme](./images/grub-theme-slaze.png)
 
 ### Rofi custom - dmenu
 
-- Install rofi by typing `sudo pacman -S rofi`
-- Rofi github : https://github.com/davatorium/rofi
+- Install Rofi by typing `sudo pacman -S rofi`
+- Rofi's github : https://github.com/davatorium/rofi
 - If you want to add more themes : https://github.com/davatorium/rofi-themes
-- Cpy \*.rasi files into /usr/share/rofi/themes
-- Use the doc at : https://github.com/davatorium/rofi/wiki
+    cpy \*.rasi files into /usr/share/rofi/themes
+- Use the Rofi's Wiki at : https://github.com/davatorium/rofi/wiki
 - Modify theme : https://github.com/davatorium/rofi/wiki/themes,
-    do 2 the commands
-- Go on rofi-theme-selector and choose your theme, validate by presing alt+a
+    do 2 the commands explained in the link
+- Go on rofi-theme-selector and choose your theme, validate by pressing
+    <kbd>Alt</kbd> + <kbd>A</kbd>
 
 ![Custom Rofi](./images/rofi_custom.png)
 
 ### Conky
 
-If you use start_conky_green (see in .i3/config) :
-- in order to remove the help shortcuts -> comment the line
-    `conky -c /usr/share/conky/conky1.10_shortcuts_green &&`
+- Use green conky instead of maia : in .i3/config file, comment the line
+`# exec --no-startup-id start_conky_maia` and add
+`exec --no-startup-id start_conky_green`
+- Remove the help shortcuts : in /bin/start_conky_green file, comment this line
+`conky -c /usr/share/conky/conky1.10_shortcuts_green &&`
 
 ![Green Conky](./images/conky_green.png)
 
