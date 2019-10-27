@@ -67,3 +67,8 @@ Use lightdm-settings to change the login screen
 https://github.com/robbyrussell/oh-my-zsh.git
 
 ![Zsh Theme](./images/zsh.png)
+
+### Change Time and date
+
+Manjaro Settings Manager
+Time and Date
