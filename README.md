@@ -71,3 +71,8 @@ https://github.com/robbyrussell/oh-my-zsh.git
 ### Make vim default editor for GitHub
 
 `git config --global core.editor "vim"`
+
+### Change Time and date
+
+Manjaro Settings Manager
+Time and Date

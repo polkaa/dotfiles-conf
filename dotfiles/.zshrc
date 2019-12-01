@@ -110,7 +110,8 @@ alias r='reset'
 alias i3lock='/home/paul/.config/i3/lock/lock.sh'
 
 
-function cl {
+function cl ()
+{
     cd $* && ls
 }
 alias cd='cl'
@@ -119,12 +120,14 @@ alias cd='cl'
 # entire path to your current working project.
 
 # set current project to where you are right now.
-setproject () {
+function setproject ()
+{
     dir_name=$(pwd) && echo "set project directory to $dir_name" && echo $dir_name > ~/.project_dir
 }
 
 # if you type it, you will be directed to current project.
-project () {
+function project ()
+{
     dir_name=$(head -n 1 ~/.project_dir) && echo "changing to $dir_name" && cd $dir_name
 }
 
@@ -132,7 +135,7 @@ project () {
 #
 # # ex - archive extractor
 # # usage: ex <file>
-ex ()
+function ex ()
 {
   if [ -f $1 ] ; then
     case $1 in
