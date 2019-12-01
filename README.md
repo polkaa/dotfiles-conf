@@ -67,3 +67,7 @@ Use lightdm-settings to change the login screen
 https://github.com/robbyrussell/oh-my-zsh.git
 
 ![Zsh Theme](./images/zsh.png)
+
+### Make vim default editor for GitHub
+
+`git config --global core.editor "vim"`
