@@ -76,3 +76,11 @@ https://github.com/robbyrussell/oh-my-zsh.git
 
 Manjaro Settings Manager
 Time and Date
+
+### Java
+
+https://linuxhint.com/install_oracle_jdk11_arch_linux/
+
+### IntelliJ IDEA
+
+https://www.javahelps.com/2015/04/install-intellij-idea-on-ubuntu.html
