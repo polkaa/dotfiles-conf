@@ -65,6 +65,7 @@ Use lightdm-settings to change the login screen
 ### Shell - zsh - oh-my-zsh
 
 https://github.com/robbyrussell/oh-my-zsh.git
+https://github.com/Powerlevel9k/powerlevel9k
 
 ![Zsh Theme](./images/zsh.png)
 
