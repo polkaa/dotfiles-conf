@@ -78,7 +78,7 @@ https://github.com/Powerlevel9k/powerlevel9k
 Manjaro Settings Manager
 Time and Date
 
-## Keyboard
+### Keyboard
 
 `$ setxkbmap us_intl`
 
