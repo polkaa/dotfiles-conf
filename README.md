@@ -71,12 +71,16 @@ https://github.com/Powerlevel9k/powerlevel9k
 
 ### Make vim default editor for GitHub
 
-`git config --global core.editor "vim"`
+`$ git config --global core.editor "vim"`
 
 ### Change Time and date
 
 Manjaro Settings Manager
 Time and Date
+
+## Keyboard
+
+`$ setxkbmap us_intl`
 
 ### Java
 
