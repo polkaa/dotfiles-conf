@@ -1,3 +1,26 @@
+# This is Git's per-user configuration file.
 [user]
-	email = paul.kong@epita.fr
 	name = polkaa
+	email = paul.kong@epita.fr
+
+[core]
+    editor = vim
+
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+
+[commit]
+    verbose = true
+
+[pull]
+    rebase = true
+
+[branch]
+    autosetuprebase = always
+
+[push]
+    default = simple
